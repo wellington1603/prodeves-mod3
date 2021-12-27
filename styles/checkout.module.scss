@@ -1,0 +1,59 @@
+.container{
+   display: flex;
+   flex-direction: row;
+   width: 90%;
+   margin: 1rem auto;
+}
+
+.form {
+    padding: 1rem;
+    background: rgb(247, 244, 244);
+    width: 70%;
+    margin-right: 2rem;
+    input{
+        display: block;
+        border: none;
+        border-bottom: 1px solid gray;
+        background: none;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .formDivInput{
+        display: flex;
+        input:nth-child(2){
+           margin-left: 1.5rem;
+        }
+    }
+
+    button{
+        background: #FB2E86;
+        border: none;
+        color: #FFF;
+        padding: 0.3rem 2rem;
+        border-radius: 5px;
+    }
+}
+
+.tdProduct{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.trTable{
+    border-bottom: 1px solid rgb(240, 230, 230);
+}
+
+.valueContainer{
+    background-color: rgb(247, 244, 244);
+    border-radius: 5px;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

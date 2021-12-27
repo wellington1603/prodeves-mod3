@@ -1,0 +1,48 @@
+.container{
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.productDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    margin: 2rem 0;
+    margin-left: -45px;
+
+    img{
+        width: 400px;
+        height: 300px;
+    }
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+
+    p{
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+}
+
+.strik{
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    div{
+        margin-right: 5px;
+    }
+
+    .addCart{
+        cursor: pointer;
+    }
+}

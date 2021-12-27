@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 2rem auto;
+    
+}
+
+.TextCenter{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.tableCart{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+
+   
+    .headTable th{
+        padding: 1rem 3rem;
+
+        tr{
+            border-bottom: 1px solid rgb(223, 222, 222);
+        }
+    }
+
+
+
+}
+
+.tdProduto {
+    // display: flex;
+    // flex-direction: row;
+    // text-align: left;
+
+    img{
+        margin: 1rem;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+.btn{
+    border: none;
+    background: #19D16F;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.frete{
+    width: 100%;
+    margin: 1rem 0;
+    padding: 2rem;
+    background: rgb(247, 244, 244);
+
+    input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid gray;
+        background: rgb(247, 244, 244);
+        
+    }
+
+    button{
+        margin: 1rem 0;
+        width: 100%;
+        border: none;
+        background: #FB2E86;
+        padding: 0.3rem;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+    }
+}

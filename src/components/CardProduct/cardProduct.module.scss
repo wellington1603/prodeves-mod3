@@ -1,0 +1,44 @@
+.cardProduct{
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 1.5rem auto;
+
+    
+    box-shadow: -1px 0px 19px -6px #000000;
+}
+.img{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    cursor: pointer;
+    margin-right: 2rem;
+   
+}
+
+.strik{
+    text-decoration: line-through;
+    color: red;
+    font-weight: bold;
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+
+    p{
+        margin-right: 1rem;
+        font-weight: bold;
+    }
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+
+    div{
+        margin-right: 1rem;
+        cursor: pointer;
+    }
+}
